@@ -1,0 +1,134 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family-Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    
+}
+
+img{
+    
+    
+
+    
+    
+}
+
+.image-column {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: right; /* optional: center-align images */
+  }
+
+
+nav {
+    border: 2px solid seagreen;
+    background-color: #FAF3E0;
+    
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 2.5rem;
+    line-height: 10rem;
+    
+}
+header{
+   
+    background-image: url(header.png);
+}
+
+h1{
+   color: #2F4F4F;
+}
+
+a{
+    text-decoration: none;
+    color: #5A3E36;
+}
+
+ul{
+
+    list-style: none;
+    
+}
+
+
+.menu-layout {
+  display: flex;
+  align-items: flex-start; 
+  gap: 100px; 
+  margin-top: 30px;
+  
+}
+
+/* Style the menu list */
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: hsl(0, 0%, 20%);
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 1s;
+}
+ 
+.menu-list li a:hover {
+  background: #73a055;
+  color: hsl(23, 66%, 51%);
+}
+
+
+
+
+
+.image-column {
+    
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+p img{
+    border: 5px solid rgb(91, 130, 39);
+    border-radius: 2rem;
+}
+
+.image-column img {
+    border: 5px solid rgb(91, 130, 39);
+    border-radius: 2rem;
+  display: block;
+  border-radius: 8px;
+  box-shadow:  2px 8px rgba(0,0,0,0.08);
+  
+}
+.bamboo{
+    display: flex;
+    display: row;
+}
+
+.bamboo img{
+    width: 200px;     /* Increase the width */
+  height: auto;     /* Keeps the aspect ratio */
+  
+  border-radius: 2rem;
+}
+
